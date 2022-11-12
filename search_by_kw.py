@@ -3,7 +3,7 @@ import config
 
 client = tweepy.Client(bearer_token=config.BEARER_TOKEN)
 
-keyword = input("Enter keyword to search")
+keyword = input("Enter keyword to search: ")
 
 query = f'{keyword} -is:retweet'
 
