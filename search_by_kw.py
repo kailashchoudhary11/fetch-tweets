@@ -16,3 +16,5 @@ for i, tweet in enumerate(response.data):
         break
     tweets.append(tweet.text)
 
+for i, tweet in enumerate(tweets):
+    print(f"Tweet Number {i+1}: \n", tweet)
